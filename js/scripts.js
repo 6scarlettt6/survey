@@ -3,6 +3,7 @@ var g = 50;
 var chris = "ceo";
 var chase ="10x";
 
+var array = ["Chase Array Name","Second"];
 
 // if (x == 10 && g < 20 ){
 //     console.log("Conditions met son");
@@ -12,24 +13,23 @@ var chase ="10x";
 //     console.log("dead end");
 // }
 
-function test(chris, chase) {
-    return chris+chase;
+// function test(array) {
+//     return array;
+// }
+
+// var sum = test(array);
+// array.push
+// alert(sum);
+// alert(sum); 
+
+var myArray = [];
+
+for (var i = 0; i <= 5; i++) {
+    myArray.push(i * 2);
 }
 
-var sum = test(1, 2);
-alert(sum);
+for (var i = 0; i <= 5; i++) {
+    document.write(myArray.pop() + "<br/>");
+}
 
-// var array = [];
-
-// if (g == 50){
- 
-// }
-
-// function 
-
-// function loop(x){
-//     if (x == 10)
-//     return loop;
-//     console.log(hello)
-
-// }
+alert(myArray.length);
