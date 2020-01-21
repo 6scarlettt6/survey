@@ -33,3 +33,7 @@ for (var i = 0; i <= 5; i++) {
 }
 
 alert(myArray.length);
+
+
+let cars = ["Saab", "BMW", "Volvo"];
+console.log(cars.indexOf("Volvo")); // 2
